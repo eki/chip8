@@ -1,0 +1,15 @@
+
+Chip8 emulator written in javascript, seems to work reasonably correctly.
+
+Based on this documentation:  http://devernay.free.fr/hacks/chip8/C8TECH10.HTM
+
+TODO:
+
+  * Complete the assembler
+  * Finish writing an actual game
+  * Add meta info to program json
+    * Author, Description, etc
+    * Key map (map actual keys to emulated keys on a per program basis)
+    * Specify frames per second and instructions per second
+    * Optionally, sync update screen to increase in dt
+

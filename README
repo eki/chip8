@@ -3,6 +3,12 @@ Chip8 emulator written in javascript, seems to work reasonably correctly.
 
 Based on this documentation:  http://devernay.free.fr/hacks/chip8/C8TECH10.HTM
 
+Try the demo like so:
+
+    ruby -run -e httpd . -p 9090
+
+Then visit http://localhost:9090/index.html
+
 TODO:
 
   * Complete the assembler
